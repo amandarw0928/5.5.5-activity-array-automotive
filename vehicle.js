@@ -24,7 +24,7 @@ class Vehicle {
         if (this.started) {
             if (this.fuel > 0) {
                 console.log(this.speed += 1);
-                this.fuel = this.fuel - 1;
+                this.fuel = this.fuel - 1;  
             } else {
                 console.log("out of fuel.");
                 this.stop();
